@@ -28,7 +28,7 @@ module Refinery
       config.after_initialize do
         Refinery::Plugin.register do |plugin|
           plugin.pathname = root
-          plugin.name = "refinerycms_blog"
+          plugin.name = "refinerycms_my5_naturally"
           plugin.url = {:controller => '/admin/blog/posts', :action => 'index'}
           plugin.menu_match = /^\/?(admin|refinery)\/blog\/?(posts|comments|categories)?/
           plugin.activity = {

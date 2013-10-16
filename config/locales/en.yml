@@ -1,7 +1,7 @@
 en:
   plugins:
-    refinerycms_blog:
-      title: Blog
+    refinerycms_my5_naturally:
+      title: My 5 Naturally
   admin:
     blog:
       categories:
